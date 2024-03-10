@@ -21,10 +21,27 @@
     align-items: center;
 }
 
+.cell img {
+    width: 64px;
+    height: 64px;
+    position: relative;
+}
+
 .black {
     background-color: deepskyblue;
 }
 
 .white {
     background-color: rgb(222, 222, 222);
+}
+
+.selected {
+    background-color: brown;
+}
+
+.available {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: rgb(61, 191, 61);
 }
